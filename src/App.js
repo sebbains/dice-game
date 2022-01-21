@@ -1,13 +1,12 @@
 import './App.css';
-import Die from './die';
+import RollDice from './RollDice';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
       </header>
-      <Die face="five"/>
-      <Die face="three"/>
+      <RollDice />
     </div>
   );
 }
